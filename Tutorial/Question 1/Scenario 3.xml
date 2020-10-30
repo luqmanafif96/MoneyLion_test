@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><commands version="20.4">
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='icon' and (./preceding-sibling::* | ./following-sibling::*)[@text='Saya']]" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=(//*[@class='android.widget.FrameLayout' and ./parent::*[@class='android.widget.FrameLayout' and ./parent::*[@class='android.widget.LinearLayout' and ./parent::*[@class='androidx.viewpager.widget.ViewPager']]]]/*/*[@class='android.widget.ImageView' and ./parent::*[@class='android.view.ViewGroup']])[2]" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='icon' and (./preceding-sibling::* | ./following-sibling::*)[@text='Saya']]" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@text='Log Masuk']" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and SendKeys(Element, Text)" enable="true" name="ElementSendText(Zone, Element, Index, Text)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone_no_ocr"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='cret_edit_text' and ./parent::*[@id='edtLoginId']]" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element index" name="Index" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="1234@123" description="Text to Send" name="Text" pattern="" type="string"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and SendKeys(Element, Text)" enable="true" name="ElementSendText(Zone, Element, Index, Text)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone_no_ocr"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='cret_edit_text' and ./parent::*[@id='edtPassword']]" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element index" name="Index" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="aaaa" description="Text to Send" name="Text" pattern="" type="string"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='btnLogin']" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=(//*[@class='android.widget.FrameLayout' and ./parent::*[@class='android.widget.FrameLayout' and ./parent::*[@class='android.widget.LinearLayout' and ./parent::*[@class='androidx.viewpager.widget.ViewPager']]]]/*/*[@class='android.widget.ImageView' and ./parent::*[@class='android.view.ViewGroup']])[2]" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and SendKeys(Element, Text)" enable="true" name="ElementSendText(Zone, Element, Index, Text)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone_no_ocr"/>
+<parameter appium="true" defaultValue="xpath=//*[@text='Mydin: Dutch Lady  X3  @ RM56.70']" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element index" name="Index" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="Bahulu" description="Text to Send" name="Text" pattern="" type="string"/>
+</parameters>
+</command>
+<command appium="true" appiumName="DeviceAction(Action)" enable="true" name="DeviceAction(Action)">
+<parameters>
+<parameter appium="true" defaultValue="Enter" description="Name of action to perform" name="Action" pattern="" type="device_action"/>
+</parameters>
+</command>
+<command appium="true" appiumName="WaitForElementPresence(Element, Timeout)" enable="true" name="WaitForElement(Zone, Element, Index, Timeout)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=(((//*[@class='androidx.recyclerview.widget.RecyclerView']/*/*/*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup']]])[2]/*[@class='android.view.ViewGroup'])[1]/*/*[@class='android.widget.ImageView' and (./preceding-sibling::* | ./following-sibling::*)[@class='android.view.ViewGroup']])[1]" description="Select Element to Wait For" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="30000" description="Waiting Timeout in MiliSec" name="Timeout" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=(((//*[@class='androidx.recyclerview.widget.RecyclerView']/*/*/*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup']]])[2]/*[@class='android.view.ViewGroup'])[1]/*/*[@class='android.widget.ImageView' and (./preceding-sibling::* | ./following-sibling::*)[@class='android.view.ViewGroup']])[1]" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="Swipe(startx, starty, endx, endy, time)" enable="true" name="DragCoordinates(X1, Y1, X2, Y2, Time)">
+<parameters>
+<parameter appium="true" defaultValue="266" description="First point X" name="X1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="736" description="First point Y" name="Y1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="263" description="Second point X" name="X2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="183" description="Second point Y" name="Y2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="734" description="Drag time (ms)" name="Time" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="Swipe(startx, starty, endx, endy, time)" enable="true" name="DragCoordinates(X1, Y1, X2, Y2, Time)">
+<parameters>
+<parameter appium="true" defaultValue="250" description="First point X" name="X1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="760" description="First point Y" name="Y1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="240" description="Second point X" name="X2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="66" description="Second point Y" name="Y2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="730" description="Drag time (ms)" name="Time" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="Swipe(startx, starty, endx, endy, time)" enable="true" name="DragCoordinates(X1, Y1, X2, Y2, Time)">
+<parameters>
+<parameter appium="true" defaultValue="216" description="First point X" name="X1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="1426" description="First point Y" name="Y1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="216" description="Second point X" name="X2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="2266" description="Second point Y" name="Y2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="713" description="Drag time (ms)" name="Time" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="Swipe(startx, starty, endx, endy, time)" enable="true" name="DragCoordinates(X1, Y1, X2, Y2, Time)">
+<parameters>
+<parameter appium="true" defaultValue="3" description="First point X" name="X1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="1200" description="First point Y" name="Y1" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="260" description="Second point X" name="X2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="2850" description="Second point Y" name="Y2" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="1716" description="Drag time (ms)" name="Time" pattern="" type="integer"/>
+</parameters>
+</command>
+</commands>
